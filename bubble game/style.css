@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 237, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 85%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#panelabv{
+    padding: 0% 35%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 92, 18);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.box{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(50, 180, 56);
+    font-weight: 700;
+    font-size: 25px;
+}
+#panelblw{
+    width: 100%;
+    height: calc(100% - 100px);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    background-color: rgb(29, 131, 29);
+    width: 4%;
+    height: 8%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(9, 95, 9);;
+}
